@@ -1,0 +1,19 @@
+name: hrl
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.7
+  - pip>=21.2.4
+  - cudatoolkit=11.3
+  - pytorch=1.11
+  - torchvision
+  - torchaudio
+  - pip:
+    - pillow>=8.0.1
+    - notebook>=6.4.5
+    - jupyterlab>=3.2.1
+    - matplotlib>=3.4.3
+    - seaborn>=0.11.2
+    - ipywidgets>=7.6.5
