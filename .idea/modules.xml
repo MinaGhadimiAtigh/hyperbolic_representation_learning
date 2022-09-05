@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/asci_cbl_practicals.iml" filepath="$PROJECT_DIR$/.idea/asci_cbl_practicals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hyperbolic_representation_learning.iml" filepath="$PROJECT_DIR$/.idea/hyperbolic_representation_learning.iml" />
     </modules>
   </component>
 </project>
