@@ -135,3 +135,6 @@ saved_models/
 
 # Sphinx building
 docs/_build/
+
+#pycharm folder
+.idea/
