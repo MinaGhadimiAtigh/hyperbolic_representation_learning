@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to the Hyperbolic Representation Learning for Computer Vision tutorial, ECCV2022!
-=======================================================
+===========================================================================================
 
 | *Tutorial website*: https://sites.google.com/view/hyperbolic-tutorial-eccv22
 | *Tutorial edition*: October, 2022
