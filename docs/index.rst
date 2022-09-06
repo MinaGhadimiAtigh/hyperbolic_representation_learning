@@ -71,5 +71,5 @@ There are three main ways of running the notebooks we recommend:
    :caption: Tutorials
    :maxdepth: 2
 
-   notebooks/Introduction_to_PyTorch.ipynb
    notebooks/2_Hyperbolic_Image_Embeddings.ipynb
+   notebooks/3_Hyperbolic_Busemann_Learning_with_Ideal_prototypes.ipynb
