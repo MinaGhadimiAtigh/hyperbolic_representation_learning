@@ -33,35 +33,18 @@ its workings and lower the barrier to start your dive into this exciting new res
 
 For any remaining questions regarding the notebooks, please contact us at m.ghadimiatigh@uva.nl.
 
-Schedule
---------
-
-+------------------------------------------+---------------------------------------------------+
-| **Date**                                 | **Practical**                                     |
-+------------------------------------------+---------------------------------------------------+
-| Monday, 9. May 2022                      | Practical 1: Multi-Layer Perceptrons              |
-|                                          |                                                   |
-| Tuesday, 10. May 2022                    | Practical 2: Convolutional Neural Networks        |
-|                                          |                                                   |
-|                                          | Practical 3: Vision Transformers                  |
-+------------------------------------------+---------------------------------------------------+
-| Wednesday, 11. May 2022                  | Practical 4: Regular Group Convolutions           |
-+------------------------------------------+---------------------------------------------------+
-| Thursday, 12. May 2022                   | Practical 5: Self-Supervised Contrastive Learning |
-+------------------------------------------+---------------------------------------------------+
-
 How to run the notebooks
 ------------------------
 
 On this website, you will find the notebooks exported into a HTML format so that you can read them from whatever device you prefer.
-Your task is to fill in the notebooks to solve the practicals.
+
 There are three main ways of running the notebooks we recommend:
 
-- **Locally on GPU**: If you have a laptop with a build-in NVIDIA GPU, we recommend that you run the notebooks on your own machine. All notebooks are stored on the github repository that also builds this website. You can find them here: to be updated.All notebooks require access to a GPU to keep the training times in a reasonable range. Nonetheless, if you prefer, you can code and test most of your code on a CPU-only system, i.e. your own laptop, and once your code is tested and ready, use one of the remaining options to train the model. To ensure that you have all the right python packages installed, we provide a conda environment in the `same repository <https://github.com/phlippe/asci_cbl_practicals>`_.
+- **Locally on GPU**: If you have a laptop with a build-in NVIDIA GPU, we recommend that you run the notebooks on your own machine. All notebooks are stored on the github repository that also builds this website. You can find them here: to be updated.All notebooks require access to a GPU to keep the training times in a reasonable range. Nonetheless, if you prefer, you can code and test most of your code on a CPU-only system, i.e. your own laptop, and once your code is tested and ready, use one of the remaining options to train the model. To ensure that you have all the right python packages installed, we provide a conda environment in the `same repository <https://github.com/MinaGhadimiAtigh/hyperbolic_representation_learning>`_.
 
 - **Google Colab**: If you do not have access to a GPU on your local machine, you can make use of `Google Colab <https://colab.research.google.com/notebooks/intro.ipynb#recent=true>`_. Google Colab provides you access to GPUs for free, and you can activate the GPU support by :code:`Runtime -> Change runtime type -> Hardware accelerator: GPU`. Each notebook on this documentation website has a badge with a link to directly open it on Google Colab. It is highly recommend to copy the notebook to your own Google Drive before starting, since when closing the session, changes might be lost if you don't save it to your local computer or have copied the notebook to your Google Drive beforehand. In addition, note that for free account, Google Colab is limited to one session at a time, and each session has a time limit.
 
-- **Compute cluster**: If you have access to a compute cluster, we recommend to using it to do your final trainings. Depending on your preference, you can implement the practicals either locally or on Google Colab. Once your notebook is ready, you can first convert the notebooks to a script using :code:`jupyter nbconvert --to script ...ipynb`, and then start a job on the cluster for running the script. A few advices when running on clusters:
+- **Compute cluster**: If you have access to a compute cluster, we recommend to using it to do your final trainings. Depending on your preference, you can run the tutorials either locally or on Google Colab. Once your notebook is ready, you can first convert the notebooks to a script using :code:`jupyter nbconvert --to script ...ipynb`, and then start a job on the cluster for running the script. A few advices when running on clusters:
 
    - Disable the tqdm statements in the notebook. Otherwise your slurm output file might overflow and be several MB large.
    - Comment out the matplotlib plotting statements, or change :code:`plt.show()` to :code:`plt.savefig(...)`.
