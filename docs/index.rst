@@ -7,8 +7,8 @@ Welcome to the Hyperbolic Representation Learning for Computer Vision tutorial, 
 ===========================================================================================
 
 | *Tutorial website*: https://sites.google.com/view/hyperbolic-tutorial-eccv22
-| *Tutorial edition*: October, 2022
-| *Repository*: To be updated
+| *Tutorial edition*: October 24th, 2022
+| *Repository*: https://github.com/MinaGhadimiAtigh/hyperbolic_representation_learning
 | *Author*: Mina Ghadimi Atigh
 
 
