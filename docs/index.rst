@@ -54,6 +54,7 @@ There are three main ways of running the notebooks we recommend:
    :caption: Tutorials
    :maxdepth: 2
 
+   notebooks/1_Simple_NN_in_Euclidean_and_Hyperbolic_space.ipynb
    notebooks/2_Hyperbolic_Image_Embeddings.ipynb
    notebooks/3_Hyperbolic_Busemann_Learning_with_Ideal_prototypes.ipynb
    notebooks/4_Clipped_Hyperbolic_Classifiers_Are_Super_Hyperbolic_Classifiers.ipynb
